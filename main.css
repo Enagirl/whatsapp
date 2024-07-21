@@ -31,8 +31,8 @@ color: white;
     flex-direction: column;
 }
 .opened{
-    width: 300px;
-    background-color:#222e35 ;
+    width: 500px;
+    background-color: #222e35;
     color:#c4c9bc ;
 }
 .archived{
@@ -52,3 +52,17 @@ color: white;
 .primary{
     height: 17px;
 }
+.domain{ 
+    background-color: #111b21;
+   
+}
+.check{
+    height: 500px;
+}
+.view{
+    
+    height: 15px;
+    background-color: #111b21;
+    padding-right: 15px;
+}
+
