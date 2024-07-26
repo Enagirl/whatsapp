@@ -4,7 +4,6 @@ body{
 
 #main{
     display: flex;
-    flex-direction: row;
 }
 
 .organized{
@@ -17,39 +16,51 @@ body{
 
 .listed{
     display: flex;
+    height: 100vh;
     flex-direction:column;
-    width: 500px;
+    width: 35%;
     background-color: #111b21;
     color: #e9edef;
+    overflow: hidden;
 }
 
 .opened{
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 65%;
     background-color: #222e35;
+}
+.img1-4{
+    height: 516px;
 }
 
 .img1{
     padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 .img2{
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 .img3{
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 .img4{
     padding-bottom: 371px;
+    margin-left: 10px;
 }
 .img5{
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 
  .profilepic{
     border-radius: 40px;
     width: 40px;
     height: 40px;
+    margin-left: 4.5px;
  }  
  .header-container{
     display: flex;
@@ -73,13 +84,22 @@ body{
 .chats{
     margin-left: 20px;
 }
+
 input{
     width: 378px;
     height: 38px;
     background-color: #202c33;
     margin-left: 10px;
     border-radius: 10px;
+    border: none;
+    color: #ffff;
+    margin-left: 10px;
 }
+
+input:focus {
+    outline: none;
+}
+
 .button{
     margin-left: 10px;
     padding-top: 9px;
@@ -90,6 +110,7 @@ input{
     width: 39px;
     height: 34px;
     color: #02a17b;
+    border: none;
 }
 .unread{
     border-radius: 20px;
@@ -97,6 +118,7 @@ input{
     height:35px ;
     background-color: #202c33;
     color: #808e99;
+    border: none;
 }
 .groups{
     border-radius: 20px;
@@ -104,6 +126,7 @@ input{
     height: 35px;
     background-color: #202c33;
     color: #808e99;
+    border: none;
 }
 
 #archived-icon{
@@ -162,32 +185,38 @@ input{
 .normal{
     padding-left: 230px;
     padding-top: 100px;
-    width: 400px;
-
+    width: 300px;
+    margin-left: 70px;
 }
 .rite1 h1 {
     font-size: xx-large;
     padding-left: 200px;
     color: #beced6;
     font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
 }
 .rite1 h3{
     text-align: center;
     color: #9eaab2;
     font-size:medium;
+    padding-left: 117px;
 }
 .get{
-    margin-left: 330px;
+    margin-left: 345px;
     border-radius: 20px;
     height: 39px;
     width: 200px;
     background-color: #00a884;
     color: #102129;
+    border: none;
+    margin-top: 20px;
 }
+
 .lastly{
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 70px;
+    margin-left: 25px;
     color: #626c70;
+    padding-left: 250px;
 }
 .time2{
     padding-left: 229px;
@@ -206,13 +235,14 @@ input{
     color: #83939d;
 }
 .time4{
-    padding-left: 161px;
+    padding-left: 155px;
     color: #00a884;
 }
 .button1{
     border-radius: 40px;
     background-color:#00a884 ;
     color: #0d3832;
+    border: none;
 }
 .message2{
     padding-left: 5px;
@@ -222,7 +252,31 @@ input{
 .unans{
     margin-left: 10px;
 }
+.second-group{
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-color:#374045 #111a20;
+    scrollbar-width: thin;
+}
 
-
+.message3{
+    color: #6e8894;
+    padding-right: 120px;
+}
+.time5{
+    padding-left: 212px;
+    color: #00a884;
+}
+.message4{
+    padding-left: 10px;
+    color: #6e8894;
+    padding-right: 232px;
+}
+.button2{
+    border-radius: 100px;
+    background-color:#00a884 ;
+    color: #0d3832;
+    border: none;
+}
 
 
